@@ -1,4 +1,5 @@
 import random
+from replit import clear
 print("Welcome to the 8-bit Binary conversion practice game!")
 print("Each correct answer awards 1 point.")
 
@@ -20,6 +21,7 @@ while loop == True:
 	again = input('Do you want to try again? Type "y" or "n":  ').lower()
 	if again == "n" or again == "no":
 		loop = False
+	clear()
 	
 print("\n____________________________________________________")
 print(f"\n\nThanks for using the 8-bit Binary conversion practice game! \nYou got {score} points.")
